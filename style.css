@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  font-family: 'helvetica', sans-serif;
+}
+body {
+  margin: auto;
+  max-width: 1300px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  max-height: 780px;
+  max-width: 780px;
+  min-height: 780px;
+  position: absolute;
+  width: 60%;
+
+}
+
+.box {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 33.3333%;
+  justify-content: center;
+  width: 33.3333%;
+}
+
+.box img {
+  color: #fff;
+  height: 50px;
+  width: 50px;
+}
+
+.resume-header {
+  background-color: #35BC7A;
+  display: flex;
+  align-items: left;
+  padding: 30px 10% 30px 30px;
+  width: 66.6666%;
+}
+
+.resume-header h1 {
+  margin: 40px 0 0 0;
+}
+
+main .button-icon {
+height: 10px;
+width: 10px;
+}
+
+.resume-header a {
+  border: 2px solid #FFF;
+  color: #FFF;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.box-profile {
+  background-color: #FF9E00;
+}
+
+.box-experience {
+  background-color: #FF9E00
+}
+
+.box-education {
+  background-color: #F15A49
+}
+
+.box-blog {
+  background-color: #35BC7A;
+}
+
+.box-social-menu {
+  background-color: #F86925
+}
+
+.box-contact {
+  background-color: #1E8BC4;
+}
+
+.box-portfolio {
+  background-color: #F86925;
+}
+
+
+
+aside {
+  background-image: url(assets/thedude.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  justify-content: space-between;
+  max-height: 780px;
+  max-width: 520px;
+  min-height: 780px;
+  width: 40%;
+}
+
+aside .circle-icon {
+  align-self: right;
+  height: 15px;
+  width: 15px;
+}
+
+.photo-circles {
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.circle-inactive {
+  opacity: .4;
+}
+
+aside .photo-arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside .photo-nav {
+  height: 40px;
+  margin: 15px;
+  opacity: .7;
+  width: 40px;
+}
+
+@media screen and (max-width: 935px) {
+
+  main {
+    width: 50%;
+  }
+
+  main span {
+    margin-bottom: 30px;
+  }
+
+  aside {
+    width: 50%
+  }
+
+
+  .box {
+    width: 50%;
+  }
+
+  .box img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .top-box {
+    height: 30%;
+  }
+
+  .middle-box {
+    height: 16.6666%
+  }
+
+  .bottom-box {
+    height: 20%;
+  }
+
+  .resume-header {
+    width: 100%;
+  }
+
+  .box-portfolio {
+    background-color: #35BC7A;
+    width: 100%;
+  }
+
+  .box-experience {
+    background-color: #F86925;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .banner {
+    background-image: url(assets/dude-header-700x300.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    width: 100%;
+  }
+
+  .box-banner {
+    width: 100%
+  }
+
+  main {
+    max-width: none;
+    width: 100%;
+  }
+
+  .resume-header p {
+    padding-right: 15%;
+  }
+
+  .top-box a {
+    margin: 20px;
+  }
+
+  aside {
+    visibility: hidden;
+  }
+
+  main {
+    max-height: none;
+  }
+
+  .box {
+    height: 200px;
+  }
+
+  .top-box {
+    height: 350px;
+  }
+
+  .middle-box, {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .resume-header {
+    text-align: center;
+    height: 400px;
+  }
+
+  .resume-header h1 {
+    margin: 20px auto 0;
+    width: 200px;
+  }
+
+  .resume-header p {
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .resume-header {
+    height: 400px;
+    text-align: center;
+  }
+
+
+
+
+  .box {
+    width: 100%;
+  }
+
+
+
+  .top-box a {
+    margin: 10px;
+  }
+
+  .box-experience {
+    background-color: #1E8BC4;
+  }
+}
