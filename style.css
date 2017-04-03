@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-  font-family: 'helvetica', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 body {
   margin: auto;
   max-width: 1300px;
@@ -258,14 +259,9 @@ aside .photo-nav {
     text-align: center;
   }
 
-
-
-
   .box {
     width: 100%;
   }
-
-
 
   .top-box a {
     margin: 10px;
