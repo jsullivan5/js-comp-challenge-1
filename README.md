@@ -4,10 +4,10 @@ the purpose of this project was to create a responsive site that matched the ini
 
 ## The Example Comp
 
-![Example Comp](/Users/jamessullivan/Turing/projects/static-comp1/Screenshots/Screen Shot 2017-04-02 at 6.40.01 PM.png)
+![Example Comp](Screenshots/original.png)
 
 ## My Work
 
-![My Work](/Users/jamessullivan/Turing/projects/static-comp1/Screenshots/Screen Shot 2017-04-02 at 6.40.28 PM.png)
+![My Work](Screenshots/my-comp.png)
 
 I matched the comp using flexbox in many places.  It was a newly introduced topic in class and we were encouraged to use it.  I set break points at 935px, 800px, 450px, and 400px to achieve this.  The use of sizing elements in flex was critical to my approach.
